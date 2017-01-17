@@ -9,7 +9,7 @@ import uuid
 # Create your models here.
 
 
-class PatronProfile(models.User):
+class PatronProfile(User):
     """Patron profile class."""
     user = models.OneToOneField(
         User,
