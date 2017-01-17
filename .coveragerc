@@ -1,0 +1,14 @@
+[run]
+omit =
+    */migrations/*,
+    */tests.py
+    manage.py
+    lending_library/wsgi.py
+    */apps.py
+
+source =
+    lending_library
+    lender_profile
+
+[report]
+show_missing = True
